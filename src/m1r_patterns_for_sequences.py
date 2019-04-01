@@ -387,12 +387,7 @@ def min_index(sequence):
     # -------------------------------------------------------------------------
     # Return the INDEX of the smallest item in the sequence.
     # -------------------------------------------------------------------------
-    index_of_min = 0
-    for k in range(1, len(sequence)):
-        if sequence[k] < sequence[index_of_min]:
-            index_of_min = k
 
-    return index_of_min
 
 
 def min_item(sequence):
